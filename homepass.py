@@ -7,8 +7,8 @@ def main():
     menu=["Home","Login"]
     choice=st.sidebar.selectbox("Menu",menu)
     if choice=="Home":
-        st.subheader("Diabetes Analysis, Early Symptoms and Prediction")
         st.subheader("Mental Health at The Workplace")
+        st.subheader("By Sarah Fleihan")
         
 
 
