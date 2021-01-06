@@ -60,7 +60,7 @@ st.write(""" <style>body {
 }</style>""",unsafe_allow_html=True)
 
 from PIL import Image
-img_file_buffer = st.file_uploader("mentalhealth.png")
+img_file_buffer = st.file_uploader("mentalhealth1234.png")
 if img_file_buffer is not None:
     image = Image.open(img_file_buffer)
     img_array = np.array(image) # if you want to pass it to OpenCV
