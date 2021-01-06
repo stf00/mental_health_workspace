@@ -1,0 +1,9 @@
+Markdown==3.2.2
+plotly==4.9.0
+numpy==1.19.1
+matplotlib==3.3.0
+pandas==1.0.5
+Pillow==8.1.0
+scikit_learn==0.24.0
+seaborn==0.11.1
+streamlit==0.73.1
