@@ -66,6 +66,10 @@ if img_file_buffer is not None:
     img_array = np.array(image) # if you want to pass it to OpenCV
     st.image(image, use_column_width=True)
 
+# To put a picture in the subheader
+from PIL import Image
+image = Image.open('mental.png')
+st.image(image,width=None)
 
 st.title("Exploratory Data Analysis of Mental Health at The Workplace")
 
