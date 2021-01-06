@@ -516,7 +516,7 @@ option = st.sidebar.selectbox(' ', (
 'Country distribution of people that are taking treatment',
 'Gender distribution of people undergoing treatment',
 'Treatment in relation to family history',
-'Attributes  that affect treatment decision',
+'Attributes affecting treatment decision',
 'Mental health interferance with work performance',
 'Existance of mental health benifits at the workspace'
 
@@ -543,7 +543,7 @@ if option=="Treatment in relation to family history":
     if st.checkbox('Treatment status based of family history of mental illness'):
         Familytreat()
 
-if option=="Attributes affect treatment decision":
+if option=="Attributes affecting treatment decision":
     if st.checkbox('Relation between skeeping treatment and 3 other relevent attributes'):
         varcorr1()
     if st.checkbox('Relation between skeeping treatment and 5 other relevent attributes'):
