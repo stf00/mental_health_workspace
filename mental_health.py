@@ -443,15 +443,6 @@ def KNN_model():
 
 
 
-# Security
-#passlib,hashlib,bcrypt,scrypt
-st.sidebar.text(" \n \n ")
-st.sidebar.title("Login")
-
-def main():
-		password = st.sidebar.text_input("Password",type='password')
-
-main()
 
 if st.button("Let's Go!"):
     st.write('Explore the sidebar on your left!')
@@ -599,7 +590,6 @@ if option=='Support Vector Machine':
     st.write('Accuracy of SVM on test set:{:.2f}'.format(model_SVM.score(x_test,y_test)))
     SVM()
 
-##Password##############################
 
 
 ################
