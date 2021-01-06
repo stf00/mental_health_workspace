@@ -353,7 +353,7 @@ def Logistic_Reg_model():
             fmt='.2%', cmap="Blues")
     ax= plt.subplot()
     ax.set_xlabel('Predicted labels');ax.set_ylabel('True labels');
-    ax.set_title('Confusion Matrix123');
+    ax.set_title('Confusion Matrix - Logistic Regression');
     ax.xaxis.set_ticklabels(['False', 'True']); ax.yaxis.set_ticklabels(['True', 'False'])
     c1.pyplot()
 
@@ -378,7 +378,7 @@ def RandomForest():
         fmt='.2%', cmap='Blues')
     ax= plt.subplot()
     ax.set_xlabel('Predicted labels');ax.set_ylabel('True labels');
-    ax.set_title('Confusion Matrix2');
+    ax.set_title('Confusion Matrix - Random Forest');
     ax.xaxis.set_ticklabels(['False', 'True']); ax.yaxis.set_ticklabels(['True', 'False'])
     c1.pyplot()
 
@@ -414,7 +414,7 @@ def SVM():
             fmt='.2%', cmap='Blues')
     ax= plt.subplot()
     ax.set_xlabel('Predicted labels');ax.set_ylabel('True labels');
-    ax.set_title('Confusion MatrixSVM');
+    ax.set_title('Confusion Matrix - SVM');
     ax.xaxis.set_ticklabels(['False', 'True']); ax.yaxis.set_ticklabels(['True', 'False'])
     c1.pyplot()
 
@@ -429,7 +429,7 @@ def KNN_model():
             fmt='.2%', cmap='Blues')
     ax= plt.subplot()
     ax.set_xlabel('Predicted labels');ax.set_ylabel('True labels');
-    ax.set_title('Confusion Matrix');
+    ax.set_title('Confusion Matrix - KNN');
     ax.xaxis.set_ticklabels(['False', 'True']); ax.yaxis.set_ticklabels(['True', 'False'])
     c1.pyplot()
 
