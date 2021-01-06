@@ -13,7 +13,6 @@ import random
 import plotly.express as px
 
 import markdown
-from plotly.subplots import make_subplots
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
