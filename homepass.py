@@ -8,10 +8,8 @@ def main():
     choice=st.sidebar.selectbox("Menu",menu)
     if choice=="Home":
         st.subheader("Diabetes Analysis, Early Symptoms and Prediction")
-        st.subheader("Individual Project by Jana Madi")
-        from PIL import Image
-        img = Image.open('Diabetes2.png')
-        st.image(img,width=None)
+        st.subheader("Mental Health at The Workplace")
+        
 
 
     elif choice=="Login":
