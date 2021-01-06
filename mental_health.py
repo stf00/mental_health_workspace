@@ -68,7 +68,7 @@ if img_file_buffer is not None:
 
 # To put a picture in the subheader
 from PIL import Image
-image = Image.open('mentalhealth.png')
+image = Image.open('mentalhealth1234.png')
 st.image(image,width=None)
 
 st.title("Exploratory Data Analysis of Mental Health at The Workplace")
