@@ -59,12 +59,6 @@ st.write(""" <style>body {
   grid-auto-flow: column;
 }</style>""",unsafe_allow_html=True)
 
-from PIL import Image
-img_file_buffer = st.file_uploader("mentalhealth1234.png")
-if img_file_buffer is not None:
-    image = Image.open(img_file_buffer)
-    img_array = np.array(image) # if you want to pass it to OpenCV
-    st.image(image, use_column_width=True)
 
 # To put a picture in the subheader
 from PIL import Image
